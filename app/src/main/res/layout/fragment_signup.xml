@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="lnbti.gtp01.droidai.ui.signup.SignUpViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/image_background"
+            android:fitsSystemWindows="true"
+            android:paddingBottom="32dp"
+            >
+
+            <ImageButton
+                android:id="@+id/leftButton"
+                android:layout_width="@dimen/actionBarButtonSize"
+                android:layout_height="@dimen/actionBarButtonSize"
+                android:adjustViewBounds="true"
+                android:background="@drawable/link_button_background"
+                android:layout_marginTop="@dimen/input_text_margin_top"
+                android:layout_marginStart="12dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/white_left_arrow"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/letsSignInLabel"
+                style="@style/landingPageTitleStyle"
+                android:layout_width="0dp"
+                android:layout_marginTop="@dimen/input_text_margin_top"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/page_padding"
+                android:layout_marginEnd="@dimen/page_padding"
+                android:text="@string/letsbegin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/leftButton" />
+
+            <LinearLayout
+                android:id="@+id/inputSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/page_padding"
+                android:layout_marginTop="@dimen/content_margin"
+                android:layout_marginEnd="@dimen/page_padding"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/letsSignInLabel">
+
+                <TextView
+                    style="@style/labelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nic" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilNICName"
+                    style="@style/inputTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edittext_height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etNIC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edittext_background"
+                        android:drawableEnd="@mipmap/username_icon"
+                        android:inputType="text"
+                        android:padding="@dimen/edittext_padding"
+                        android:text="@={vm.nic}" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/labelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:text="@string/firstname" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilFirstName"
+                    style="@style/inputTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edittext_height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etFirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edittext_background"
+                        android:drawableEnd="@mipmap/username_icon"
+                        android:inputType="textPersonName"
+                        android:padding="@dimen/edittext_padding"
+                        android:text="@={vm.firstName}" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/labelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:text="@string/lastname" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilLastName"
+                    style="@style/inputTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edittext_height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etLastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edittext_background"
+                        android:drawableEnd="@mipmap/ic_password"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:padding="@dimen/edittext_padding"
+                        android:text="@={vm.lastName}" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/labelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:text="@string/contactno" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilContactNo"
+                    style="@style/inputTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edittext_height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etContactNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edittext_background"
+                        android:drawableEnd="@mipmap/phone"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:padding="@dimen/edittext_padding"
+                        android:text="@={vm.contactNo}" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/labelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:text="@string/username" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilUsername"
+                    style="@style/inputTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edittext_height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edittext_background"
+                        android:drawableEnd="@mipmap/username_icon"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:padding="@dimen/edittext_padding"
+                        android:text="@={vm.userName}" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/labelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:text="@string/password" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilPassword"
+                    style="@style/inputTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edittext_height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edittext_background"
+                        android:drawableEnd="@mipmap/ic_password"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:padding="@dimen/edittext_padding"
+                        android:text="@={vm.password}" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/labelTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:text="@string/confirmpassword" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilConfirmPassword"
+                    style="@style/inputTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edittext_height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etConfirmPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edittext_background"
+                        android:drawableEnd="@mipmap/ic_password"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:padding="@dimen/edittext_padding"
+                        android:text="@={vm.password}" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                style="@style/brownButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/page_padding"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="@dimen/page_padding"
+                android:background="@drawable/brown_button_background"
+                android:text="@string/login"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/inputSection" />
+
+            <TextView
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/linkButtonPadding"
+                android:text="@string/back"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/leftButton"
+                app:layout_constraintStart_toEndOf="@+id/leftButton"
+                app:layout_constraintTop_toTopOf="@+id/leftButton" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

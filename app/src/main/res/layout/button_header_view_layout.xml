@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/contentHeaderButtonHeight"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginTop="@dimen/input_text_margin_top"
+    android:layout_weight="1"
+    android:background="@drawable/nutrient_default_button_bg"
+    android:gravity="center"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp"
+    style="@style/headerButtonStyle"
+/>

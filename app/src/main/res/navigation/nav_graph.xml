@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    xmlns:tools1="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="lnbti.gtp01.droidai.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_inspectorResponseViewFragment"
+            app:destination="@id/inspectorResponseViewFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_dealerLocationsFragment"
+            app:destination="@id/dealerLocationsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_weatherInfoFragment"
+            app:destination="@id/weatherInfoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="lnbti.gtp01.droidai.ui.notifications.NotificationsFragment"
+        android:label="@string/fragmentNotifications"
+        tools1:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/cropCalendarFragment"
+        android:name="lnbti.gtp01.droidai.ui.cropcalendar.CropCalendarFragment"
+        android:label="fragment_crop_calendar"
+        tools1:layout="@layout/fragment_crop_calendar">
+        <action
+            android:id="@+id/action_cropCalendarFragment_to_addCalendarEventFragment"
+            app:destination="@id/addCalendarEventFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inquiriesFragment"
+        android:name="lnbti.gtp01.droidai.ui.inquiry.InquiriesFragment"
+        android:label="InquiriesFragment">
+        <action
+            android:id="@+id/action_inquiriesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dealerLocationsFragment"
+        android:name="lnbti.gtp01.droidai.ui.dealerlocations.DealerLocationsFragment"
+        android:label="DealerLocationsFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="lnbti.gtp01.droidai.ui.categories.CategoriesFragment"
+        android:label="CategoriesFragment">
+        <action
+            android:id="@+id/action_categoriesFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_subCategoriesFragment"
+            app:destination="@id/subCategoriesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/subCategoriesFragment"
+        android:name="lnbti.gtp01.droidai.ui.subcategory.SubCategoryFragment"
+        android:label="SubCategoryFragment">
+        <argument
+            android:name="item"
+            app:argType="lnbti.gtp01.droidai.models.CategoryModel" />
+        <action
+            android:id="@+id/action_subCategoriesFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="lnbti.gtp01.droidai.ui.menulist.MenuFragment"
+        android:label="fragment_menu_fragment"
+        tools1:layout="@layout/fragment_menu">
+        <argument
+            android:name="item"
+            app:argType="lnbti.gtp01.droidai.models.CategoryModel" />
+        <action
+            android:id="@+id/action_menuFragment_to_contentDetailsFragment"
+            app:destination="@id/contentDetailsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_contentDetailsWithFilterFragment"
+            app:destination="@id/contentDetailsWithFilterFragment" />
+
+        <action
+            android:id="@+id/action_menuFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contentDetailsFragment"
+        android:name="lnbti.gtp01.droidai.ui.contentdetails.ContentDetailsFragment"
+        android:label="fragment_content_details_fragment"
+        tools1:layout="@layout/fragment_content_details">
+        <argument
+            android:name="item"
+            app:argType="lnbti.gtp01.droidai.models.CategoryModel" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contentDetailsWithFilterFragment"
+        android:name="lnbti.gtp01.droidai.ui.detailswithfilter.ContentDetailsWithFilterFragment"
+        android:label="fragment_content_details_with_filter_fragment"
+        tools1:layout="@layout/fragment_content_details_with_filter">
+        <argument
+            android:name="item"
+            app:argType="lnbti.gtp01.droidai.models.CategoryModel" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="lnbti.gtp01.droidai.ui.settings.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="lnbti.gtp01.droidai.ui.changepassword.ChangePasswordFragment"
+        android:label="ChangePasswordFragment" />
+
+    <fragment
+        android:id="@+id/weatherInfoFragment"
+        android:name="lnbti.gtp01.droidai.ui.weatherinfo.WeatherInfoFragment"
+        android:label="weather"
+        tools:layout="@layout/fragment_weather_info" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="lnbti.gtp01.droidai.ui.landing.WelcomeFragment"
+        android:label="WelcomeFragment">
+        <action
+            android:id="@+id/action_welcomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="lnbti.gtp01.droidai.ui.signin.LoginFragment"
+        android:label="LoginFragment">
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_inspectorHomeFragment"
+            app:destination="@id/inspectorHomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/agricInspectorsFragment"
+        android:name="lnbti.gtp01.droidai.ui.agricinspector.AgricInspectorsFragment"
+        android:label="AgricInspectorsFragment" />
+    <fragment
+        android:id="@+id/inspectorHomeFragment"
+        android:name="lnbti.gtp01.droidai.ui.airesponse.InspectorHomeFragment"
+        android:label="InspectorHomeFragment">
+        <action
+            android:id="@+id/action_inspectorHomeFragment_to_inspectorResponseFragment"
+            app:destination="@id/inspectorResponseFragment" />
+        <action
+            android:id="@+id/action_inspectorHomeFragment_to_dealerLocationsFragment"
+            app:destination="@id/dealerLocationsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inspectorResponseFragment"
+        android:name="lnbti.gtp01.droidai.ui.airesponse.InspectorResponseFragment"
+        android:label="InspectorResponseFragment">
+        <argument
+            android:name="inquiry"
+            app:argType="lnbti.gtp01.droidai.models.Inquiry" />
+    </fragment>
+    <fragment
+        android:id="@+id/inspectorResponseViewFragment"
+        android:name="lnbti.gtp01.droidai.ui.home.InspectorResponseViewFragment"
+        android:label="InspectorResponseViewFragment">
+        <argument
+            android:name="details"
+            app:argType="lnbti.gtp01.droidai.models.Inquiry" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="lnbti.gtp01.droidai.ui.signup.SignUpFragment"
+        android:label="SignUpFragment" />
+    <fragment
+        android:id="@+id/addCalendarEventFragment"
+        android:name="lnbti.gtp01.droidai.ui.cropcalendar.AddCalendarEventFragment"
+        android:label="AddCalendarEventFragment" />
+
+
+</navigation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/actionBarPadding"
+    tools:context=".ui.main.MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="@dimen/actionBarButtonSize"
+                android:layout_height="@dimen/actionBarButtonSize"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:importantForAccessibility="no"
+                android:src="@drawable/hamburger" />
+
+            <ImageButton
+                android:id="@+id/homeButton"
+                android:layout_width="@dimen/actionBarButtonSize"
+                android:layout_height="@dimen/actionBarButtonSize"
+                android:layout_alignParentEnd="true"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:importantForAccessibility="no"
+                android:src="@drawable/home" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/actionBarLogoSize"
+        android:layout_height="@dimen/actionBarLogoSize"
+        app:cardCornerRadius="@dimen/actionBarLogoBgCornerRadius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no"
+            android:padding="10dp"
+            android:src="@mipmap/ic_launcher" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/default_background"
+        tools:context=".ui.home.HomeFragment">
+
+                <ImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/fragmentContentMarginStart"
+                    android:layout_marginTop="@dimen/fragmentContentMargin"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/home_profile"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            style="@style/fragmentTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/welcomeTextMarginStart"
+            android:layout_marginTop="@dimen/welcomeTextMarginTop"
+            android:text="@string/welcome"
+            app:layout_constraintStart_toEndOf="@+id/imgProfile"
+            app:layout_constraintTop_toTopOf="@+id/imgProfile" />
+
+        <TextView
+            android:id="@+id/text_view_fragment_home_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fragmentTextNameMarginStart"
+            android:layout_marginTop="@dimen/fragmentTextNameMarginTop"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/imgProfile"
+            app:layout_constraintTop_toBottomOf="@+id/txtWelcome" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tabLayoutLayoutHeight"
+            android:layout_marginStart="@dimen/tabLayoutMarginStart"
+            android:layout_marginTop="@dimen/tabLayoutMarginTop"
+            android:layout_marginEnd="@dimen/tabLayoutMarginEnd"
+            android:background="@drawable/tab_layout_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfile"
+            app:tabIndicator="@drawable/tab_indicator_complete"
+            app:tabIndicatorAnimationMode="elastic"
+            app:tabIndicatorColor="@null"
+            app:tabIndicatorGravity="stretch"
+            app:tabMode="fixed"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/viewPagerStartEndMargin"
+            android:layout_marginEnd="@dimen/viewPagerStartEndMargin"
+            android:layout_marginBottom="@dimen/viewPagerBottomMargin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabLayout"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

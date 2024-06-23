@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="mini_horizontal_margin">8dp</dimen>
+    <dimen name="mini_vertical_margin">8dp</dimen>
+    <dimen name="content_margin_top">8dp</dimen>
+
+    <dimen name="sideMenuItemPadding">15dp</dimen>
+    <dimen name="sideMenuSeparatorHeight">2dp</dimen>
+    <dimen name="sideMenuArrowWidth">50dp</dimen>
+    <dimen name="sideMenuLogoWidth">100dp</dimen>
+    <dimen name="sideMenuPadding">32dp</dimen>
+    <dimen name="sideMenuCloseIconMargin">32dp</dimen>
+    <dimen name="sideMenuCloseIconHeight">40dp</dimen>
+    <dimen name="sideMenuWidth">300dp</dimen>
+    <dimen name="bottomMenuIconSize">20dp</dimen>
+    <dimen name="bottomMenuCameraIconSize">30dp</dimen>
+    <dimen name="bottomMenuCameraIconBgSize">80dp</dimen>
+    <dimen name="actionBarButtonSize">48dp</dimen>
+    <dimen name="actionBarPadding">20dp</dimen>
+    <dimen name="actionBarLogoSize">60dp</dimen>
+    <dimen name="actionBarLogoBgCornerRadius">30dp</dimen>
+    <dimen name="fragmentContentMargin">10dp</dimen>
+    <dimen name="fragmentContentMarginStart">24dp</dimen>
+    <dimen name="fragment_layout_marginTop">60dp</dimen>
+    <dimen name="titleMarginTop">40dp</dimen>
+    <dimen name="titleTopMargin">16dp</dimen>
+    <dimen name="content_margin">16dp</dimen>
+    <dimen name="appBarLayoutHeight">290dp</dimen>
+    <dimen name="titleLeftMargin">90dp</dimen>
+    <dimen name="edittext_padding">8dp</dimen>
+    <dimen name="edittext_height">48dp</dimen>
+    <dimen name="edittext_border_radius">16dp</dimen>
+    <dimen name="edittext_border_width">1dp</dimen>
+    <dimen name="linkButtonPadding">4dp</dimen>
+    <dimen name="footer_margin_bottom">16dp</dimen>
+    <dimen name="input_text_margin_top">8dp</dimen>
+    <dimen name="input_text_margin_left">8dp</dimen>
+
+    /* Inquiry Page */
+    <dimen name="editTextMarginStart">16dp</dimen>
+    <dimen name="editTextMarginEnd">16dp</dimen>
+    <dimen name="editTextMarginTop">50dp</dimen>
+    <dimen name="spinnerMarginTop">48dp</dimen>
+    <dimen name="buttonrMarginTop">24dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="buttonHeight">40dp</dimen>
+    <dimen name="contentHeaderButtonHeight">60dp</dimen>
+    <dimen name="signInButtonHeight">60dp</dimen>
+    <dimen name="buttonWidth">112dp</dimen>
+    <dimen name="imageHeight">321dp</dimen>
+    <dimen name="imageWidth">300dp</dimen>
+    <dimen name="textNumberMarginStart">16dp</dimen>
+    <dimen name="textMarginStart">8dp</dimen>
+    <dimen name="page_padding">24dp</dimen>
+    <dimen name="buttonHorizontalPadding">8dp</dimen>
+    <dimen name="bottomMenuHeight">70dp</dimen>
+    <dimen name="editTextHeight">48dp</dimen>
+
+    /* Dialog View Dimensions */
+    <dimen name="dialog_horizontal_padding">16dp</dimen>
+    <dimen name="dialog_top_padding">40dp</dimen>
+    <dimen name="dialog_icon_size">100dp</dimen>
+
+    /* Home Page Dimensions */
+    <dimen name="card_view_layout_height">110dp</dimen>
+    <dimen name="card_view_layout_marginStart">12dp</dimen>
+    <dimen name="card_view_layout_marginTop">100dp</dimen>
+    <dimen name="card_view_layout_marginEnd">12dp</dimen>
+    <dimen name="card_view_cardCornerRadius">10dp</dimen>
+    <dimen name="card_view_cardElevation">10dp</dimen>
+    <dimen name="card_view_text_view_layout_height">0dp</dimen>
+    <dimen name="card_view_text_view_layout_marginStart">16dp</dimen>
+    <dimen name="card_view_text_view_layout_marginTop">12dp</dimen>
+    <dimen name="card_view_telephone_image_view_layout_width">40dp</dimen>
+    <dimen name="card_view_telephone_image_view_layout_height">30dp</dimen>
+    <dimen name="card_view_telephone_image_view_margin_bottom">12dp</dimen>
+    <dimen name="card_view_person_image_view_layout_width">0dp</dimen>
+    <dimen name="card_view_person_image_view_layout_height">80dp</dimen>
+    <dimen name="card_view_person_image_view_layout_marginEnd">8dp</dimen>
+    <dimen name="card_view_call_us_text_view_layout_marginStart">8dp</dimen>
+    <dimen name="card_view_inquiries_text_view_layout_marginStart">8dp</dimen>
+    <dimen name="card_view_inquiries_text_view_layout_marginTop">12dp</dimen>
+
+    /* Home List Dimensions */
+    <dimen name="homeListCardViewLayoutHeight">80dp</dimen>
+    <dimen name="homeListCardViewLayoutMarginBottom">15dp</dimen>
+    <dimen name="homeListCardViewLayoutMarginStart">12dp</dimen>
+    <dimen name="homeListCardViewLayoutMarginEnd">12dp</dimen>
+    <dimen name="homeListCardViewCardCornerRadius">10dp</dimen>
+    <dimen name="homeListCardViewCardImageViewLayoutWidth">80dp</dimen>
+    <dimen name="homeListCardViewCardImageViewLayoutHeight">80dp</dimen>
+    <dimen name="homeListCardViewCardImageViewElevation">2dp</dimen>
+    <dimen name="homeListCardViewCardImageViewPaddingTop">8dp</dimen>
+    <dimen name="homeListCardViewCardImageViewPaddingBottom">8dp</dimen>
+    <dimen name="homeListCardViewCardImageViewMarginStart">8dp</dimen>
+    <dimen name="homeListCardViewCardTextViewMarginStart">8dp</dimen>
+    <dimen name="homeListCardViewCardTextViewMarginTop">10dp</dimen>
+    <dimen name="homeListCardViewCardTextViewMarginBottom">8dp</dimen>
+    <dimen name="homeListCardViewCardImageArrowLayoutHeight">16dp</dimen>
+    <dimen name="homeListCardViewCardImageArrowLayoutMarginStart">4dp</dimen>
+    <dimen name="itemPadding">16dp</dimen>
+
+    /* Inspector Response View */
+    <dimen name="inspectorResponseViewLayoutMarginStart">8dp</dimen>
+    <dimen name="inspectorResponseViewLayoutMarginEnd">8dp</dimen>
+    <dimen name="inspectorResponseViewLayoutMarginTop">16dp</dimen>
+    <dimen name="inspectorResponseViewLayoutMarginBottom">16dp</dimen>
+    <dimen name="inspectorResponseViewTextLayoutMarginTop">4dp</dimen>
+    <dimen name="inspectorResponseViewEditTextLayoutMarginTop">4dp</dimen>
+    <dimen name="inspectorResponseViewEditTextPadding">10dp</dimen>
+    <dimen name="inspectorResponseTextPaddingTop">18dp</dimen>
+    <dimen name="inspectorResponseTextPaddingStart">10dp</dimen>
+    <dimen name="inspectorResponseTextHeight">55dp</dimen>
+
+    /* View Pager Dimensions */
+    <dimen name="viewPagerStartEndMargin">8dp</dimen>
+    <dimen name="viewPagerBottomMargin">100dp</dimen>
+
+    /* Inspector Home Dimensions  */
+    <dimen name="welcomeTextMarginStart">16dp</dimen>
+    <dimen name="welcomeTextMarginTop">8dp</dimen>
+    <dimen name="fragmentTextNameMarginStart">16dp</dimen>
+    <dimen name="fragmentTextNameMarginTop">4dp</dimen>
+    <dimen name="tabLayoutLayoutHeight">50dp</dimen>
+    <dimen name="tabLayoutMarginTop">15dp</dimen>
+
+    /* Tab Layout Dimensions  */
+    <dimen name="tabLayoutMarginStart">16dp</dimen>
+    <dimen name="tabLayoutMarginEnd">16dp</dimen>
+
+
+    <dimen name="landingPageLogoTopMargin">50dp</dimen>
+    <dimen name="sub_title_margin_top">8dp</dimen>
+    <dimen name="signUpButtonBottomMargin">50dp</dimen>
+    <dimen name="categoryIconHeight">60dp</dimen>
+    <dimen name="avatarSize">60dp</dimen>
+
+    /* Notification card view */
+    <dimen name="cardCornerRadius">8dp</dimen>
+    <dimen name="cardElevation">4dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="textNotificationMarginStart">16dp</dimen>
+    <dimen name="textNotificationMarginTop">24dp</dimen>
+    <dimen name="notificationTitleMarginStart">16dp</dimen>
+    <dimen name="notificationTitleMarginTop">4dp</dimen>
+    <dimen name="notificationTitleMarginEnd">8dp</dimen>
+    <dimen name="notificationMessageMarginStart">38dp</dimen>
+    <dimen name="notificationRecyclerviewMarginBottom">32dp</dimen>
+
+
+    <dimen name="more_button_top_margin">8dp</dimen>
+    <dimen name="more_arrow_width">15dp</dimen>
+    <dimen name="more_arrow_left_margin">8dp</dimen>
+    <dimen name="more_arrow_right_margin">8dp</dimen>
+    <dimen name="headerIconHeight">60dp</dimen>
+    <dimen name="bgImageTopMargin">30dp</dimen>
+    <dimen name="recycleViewMargin">8dp</dimen>
+
+    /* Weather Card Dimensions */
+    <dimen name="weather_card_margin">16dp</dimen>
+    <dimen name="weather_icon_margin_end">16dp</dimen>
+    <dimen name="weather_text_margin_top">4dp</dimen>
+    <dimen name="weather_temperature_margin_top">8dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="min_temp_top_margin">4dp</dimen>
+    <dimen name="max_temp_top_margin">8dp</dimen>
+    <dimen name="day_view_top_margin">4dp</dimen>
+    <dimen name="card_content_padding">16dp</dimen>
+
+    /* WeatherInfo fragment Dimensions */
+    <dimen name="weather_info_title_margin_start">16dp</dimen>
+    <dimen name="weather_info_title_margin_top">28dp</dimen>
+    <dimen name="weather_info_recycler_view_padding">8dp</dimen>
+
+</resources>

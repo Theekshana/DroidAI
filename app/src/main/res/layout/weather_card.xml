@@ -1,0 +1,71 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="forecast"
+            type="lnbti.gtp01.droidai.models.DailyForecastModel"/>
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        app:cardElevation="@dimen/card_elevation"
+        app:cardCornerRadius="@dimen/card_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/card_content_padding">
+
+            <ImageView
+                android:id="@+id/imageViewDay"
+                style="@style/WeatherImageViewStyle"
+                android:layout_marginEnd="@dimen/weather_icon_margin_end"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/weather_icon_for_the_day" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/textViewDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{forecast.day != null ? forecast.day : `Unknown day`}"
+                    android:textSize="16sp"
+                    android:layout_marginTop="@dimen/day_view_top_margin"/>
+
+                <TextView
+                    android:id="@+id/textViewDayDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{context.getString(forecast.dayDescription)}"
+                    style="@style/DescriptionTextStyle" />
+
+                <TextView
+                    android:id="@+id/textViewMaxTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{`Max Temp: ` + forecast.temperature2mMax + `°`}"
+                    style="@style/TemperatureTextStyle"
+                    android:layout_marginTop="@dimen/max_temp_top_margin"/>
+
+                <TextView
+                    android:id="@+id/textViewMinTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{`Min Temp: ` + forecast.temperature2mMin + `°`}"
+                    style="@style/TemperatureTextStyle"
+                    android:layout_marginTop="@dimen/min_temp_top_margin"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

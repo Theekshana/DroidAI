@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="vm"
+            type="lnbti.gtp01.droidai.ui.landing.WelcomeFragmentViewModel" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/image_background"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="@dimen/page_padding"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/sinhalaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{() -> vm.onSinhalaLayoutClicked()}"
+                android:text="@string/sinhala"
+                android:textAllCaps="false"
+                bind:selected='@{vm.shouldSelectSinhala}' />
+
+            <TextView
+                android:id="@+id/englishBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/horizontal_margin"
+                android:onClick="@{() -> vm.onEnglishLayoutClicked()}"
+                android:text="@string/english"
+                bind:selected='@{vm.shouldSelectEnglish}' />
+
+            <TextView
+                android:id="@+id/tamilBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/horizontal_margin"
+                android:onClick="@{() -> vm.onJapaneseLayoutClicked()}"
+                android:text="@string/japanese"
+                bind:selected='@{vm.shouldSelectJapanese}' />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/page_padding"
+            android:layout_marginEnd="@dimen/page_padding"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/logo"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintStart_toStartOf="parent"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/landingPageTitleStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/page_padding"
+            android:layout_marginEnd="@dimen/page_padding"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:text="@string/app_name_label"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/landingPageContentStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/page_padding"
+            android:layout_marginEnd="@dimen/page_padding"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:text="@{vm.contentLabel}"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/landing_bottom_img"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/page_padding"
+            android:layout_marginEnd="@dimen/page_padding"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/green_button_background"
+            android:text="@{vm.btnText}"
+            android:textColor="@color/black"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

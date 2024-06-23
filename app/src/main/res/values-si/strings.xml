@@ -1,0 +1,200 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Droid AI</string>
+    <string name="preference_file_key">Droid AI Preference</string>
+    <string name="notifications">දැනුම්දීම්</string>
+    <string name="crop_calendar">කැලැන්ඩරය</string>
+    <string name="camera">කැමරාව</string>
+    <string name="contact_our_experts">විශේෂඥයන් අමතන්න</string>
+    <string name="home">මුල් පිටුව</string>
+    <string name="settings">සැකසුම්</string>
+    <string name="edit_profile">පැතිකඩ යාවත්කාලීන කරන්න</string>
+    <string name="log_out">ඉවත් වන්න</string>
+    <string name="explore_more">වැඩිදුර තොරතුරු</string>
+    <string name="respond">ප්‍රතිචාර දෙන්න</string>
+    <string name="pending">පොරොත්තුව</string>
+    <string name="location_permission_dialog_title">ස්ථාන අවසරය අවශ්‍යයි</string>
+    <string name="location_permission_initial_dialog_message">මෙම යෙදුම ස්ථාන අවසරය අවශ්‍යයි, ස්ථාන කාර්යයන් භාවිතයට එය පිළිගන්න.</string>
+    <string name="ok">හරි</string>
+    <string name="location_permission_denied_dialog_message">ස්ථාන අවසරය මෙම යෙදුමේ සම්පූර්ණ කාර්යක්ෂමතාවය සඳහා අත්යවශ්‍යයි. එය නොමැතිව, සමහර විටෙක සැලැස්ම සාර්ථකව ක්‍රියා නොකරනු ඇත. කරුණාකර යෙදුමේ සැකසුම්වල ස්ථාන අවසරය සක්‍රීය කරන්න.</string>
+    <string-array name="district">
+        <item>ගම්පහ</item>
+        <item>කොළඹ</item>
+        <item>ගාල්ල</item>
+        <item>කළුතර</item>
+    </string-array>
+    <string name="menu_home">Home</string>
+    <string name="menu_notifications">දැනුම්දීම්</string>
+    <string name="hello_blank_fragment">හෙලෝ හිස් කොටස</string>
+    <string name="weather_info_title">කාලගුණ තොරතුරු</string>
+    <string name="_01">01.</string>
+    <string name="take_photo">ඡායාරූපයක් ගන්න</string>
+    <string name="submit">ඉදිරිපත් කරන්න</string>
+    <string name="question">ප්‍රශ්නය</string>
+    <string name="_03">03.</string>
+    <string name="area">ප්‍රදේශය</string>
+    <string name="submit_your_problem">ඔබේ ගැටළුව ඉදිරිපත් කරන්න</string>
+    <string name="_02">02.</string>
+    <string name="age_of_the_crop">වගාවේ වයස</string>
+    <string name="logout_confirmation_message">ඔබට ඉවත් වීමට අවශ්‍යද?</string>
+    <string name="exit_confirmation_message">ඔබට පිටව යාමට අවශ්‍යද?</string>
+    <string name="no">නැත</string>
+    <string name="yes">ඔව්</string>
+    <string name="progressing">ප්‍රගතිය සිදුවෙමින් පවතී.....</string>
+    <string name="call_inspector_desc">පරීක්ෂකයා අමතන්න</string>
+    <string name="phone_number">011 2 111 222</string>
+    <string name="tell_us_about_your_problem">ඔබේ ගැටළුව අපට කියන්න</string>
+    <string name="call_us_now">දැන් අපට කතා කරන්න</string>
+    <string name="welcome">ආයුබෝවන්..!</string>
+    <string name="date_and_time">දිනය සහ වේලාව</string>
+    <string name="this_is_firest_inquiry">මෙය ප්‍රථම විමසුමයි</string>
+    <string name="app_name_label">Droid AI</string>
+    <string name="landing_page_content">Droid AI වෙත සාදරයෙන් පිළිගනිමු, කෘෂිකාර්මික පරීක්ෂකවරුන් සහ ගොවීන් අතර සහයෝගීතාව වැඩි දියුණු කිරීම සඳහා නිර්මාණය කර ඇති අපගේ Droid AI සමඟ සම්බන්ධ වන්න</string>
+    <string name="next">ඊළඟ</string>
+    <string name="login_page_header">එන්න, ඔබව පුරනය කරගනිමු</string>
+    <string name="loginpagesubheader">සාදරයෙන් පිළිගනිමු</string>
+    <string name="username">පරිශීලක නාමය</string>
+    <string name="password">මුරපදය</string>
+    <string name="dontyouhaveaccount">ගිණුමක් නැත්නම්?</string>
+    <string name="signup">ලියාපදිංචි වන්න</string>
+    <string name="forgot_password">මුරපදය අමතක වී ඇත්ද?</string>
+    <string name="login">ඇතුල් වන්න</string>
+    <string name="invalid_username">අවලංගු පරිශීලක නාමය</string>
+    <string name="invalid_password">අවලංගු මුරපදය</string>
+    <string name="wait">කරුණාකර රැදී සිටින්න.....</string>
+    <string name="no_internet">අන්තර්ජාලය නැත</string>
+    <string name="invalid_firstname">අවලංගු පළමු නම</string>
+    <string name="invalid_lastname">අවලංගු අවසන් නම</string>
+    <string name="invalid_contactno">වලංගු නොවන දුරකථන අංකය</string>
+    <string name="firstname">මුල් නම</string>
+    <string name="lastname">අවසන් නම</string>
+    <string name="contactno">දුරකථන අංකය</string>
+    <string name="confirmpassword">මුරපදය තහවුරු කරන්න</string>
+    <string name="back">ආපසු</string>
+    <string name="nic">ජා.හැ.අංකය</string>
+    <string name="invalid_nic">වලංගු නොවන ජා.හැ.අංකය</string>
+    <string name="input_activated_color">#FF71BDC5</string>
+    <string name="input_default_color">#FF71BDC5</string>
+    <string name="english">English</string>
+    <string name="sinhala">සිංහල</string>
+    <string name="japanese" tools:ignore="ExtraTranslation">日本語</string>
+    <string name="change_language">භාෂාව වෙනස් කරන්න</string>
+    <string name="change_password">මුරපදය වෙනස් කරන්න</string>
+
+    <!-- Image content Descriptions -->
+    <string name="todo">TODO</string>
+    <string name="app_logo">App Logo</string>
+    <string name="default_image_for_list">Default Image for recycle view</string>
+    <string name="back_button_image">Action Bar back button image</string>
+    <string name="alert_dialog_image">Alert Dialog Icon</string>
+    <string name="progress_dialog_image">Progress Dialog Icon</string>
+    <string name="favourite_button_image">Favourite button Icon</string>
+    <string name="forward_arrow_icon">Forward Arrow Icon</string>
+    <string name="fav_delete_icon">Favourite Delete Icon</string>
+    <string name="radio_button_custom_icon">Radio Button Icon</string>
+
+    <string name="future_works">අනාගත කිරීම්</string>
+    <string name="add_event">ප්‍රමාණය කරන්න</string>
+    <string name="date">දිනය</string>
+    <string name="describe_your_event">ඔබගේ සිද්ධිය විස්තර කරන්න</string>
+    <string name="add">ප්‍රමාණය කරන්න</string>
+    <string name="event_details_cannot_be_empty">සිදුවන විස්තර ප්‍රශ්නයේ කිසිවක් හෝ විස්තර කිසියම් හෝ අවලංගු වේ</string>
+    <string name="date_select_error">කරුණාකර දිනය පළමුව තෝරන්න</string>
+    <string name="delete_event_cofirmation">ඔබට මෙම සිද්ධිය මකා දැමීමට අවශ්‍යද?</string>
+    <string name="cropcategories">බෝග වර්ග</string>
+    <string name="fragmentHome">Fragment Home</string>
+    <string name="fragmentNotifications">Fragment Notifications</string>
+    <string name="inquiries">විමසීම්</string>
+
+    <string name="submit_your_answer">ඔබගේ පිළිතුර අතුලත් කරන්න</string>
+    <string name="information">විස්තර</string>
+    <string name="problem">ප්‍රශ්න</string>
+    <string name="answer">පිළිතුර</string>
+    <string name="completed">සම්පූර්ණ කරන ලදි</string>
+    <string name="add_your_answer_here">ඔබගේ පිළිතුර අතුලත් කරන්න</string>
+    <string name="response">පිළිතුර</string>
+    <string name="pending_tab">තීන්දු නැති</string>
+    <string name="retry">නැවත</string>
+    <string name="fillTheAnswerFeild">පිළිතුර සම්පූර්ණ කරන්න</string>
+    <string name="fillAllFeilds">සියල්ල සම්පූර්ණ කරන්න</string>
+    <string name="successfullMessage">ඔබගේ ප්‍රශ්නය සාර්ථකව යවා ඇත</string>
+
+    <string name="failed_to_load_details">විස්තර පූරණය කිරීමට අසමත් විය</string>
+    <string name="address">ලිපිනය</string>
+    <string name="district">දිස්ත්‍රික්කය</string>
+    <string name="dealer_locations">"බෙදාහරින ස්ථාන "</string>
+
+    <string-array name="district_array">
+        <item>සියලු</item>
+        <item>අම්පාර</item>
+        <item>අනුරාධපුර</item>
+        <item>බදුල්ල</item>
+        <item>මඩකලපුව</item>
+        <item>කොළඹ</item>
+        <item>ගාල්ල</item>
+        <item>ගම්පහ</item>
+        <item>හම්බන්තොට</item>
+        <item>යාපනය</item>
+        <item>කළුතර</item>
+        <item>මහනුවර</item>
+        <item>කෑගල්ල</item>
+        <item>කිලිනොච්චිය</item>
+        <item>කුරුණෑගල</item>
+        <item>මන්නාරම</item>
+        <item>මාතලේ</item>
+        <item>මාතර</item>
+        <item>මොනරාගල</item>
+        <item>මුලතිව්</item>
+        <item>නුවර එළිය</item>
+        <item>පොළොන්නරුව</item>
+        <item>පුත්තලම</item>
+        <item>රත්නපුර</item>
+        <item>ත්‍රිකුණාමලය</item>
+        <item>වවුනියාව</item>
+    </string-array>
+    <string name="all">සියලු</string>
+    <string name="comingsoon">අනාගතයේදී පැමිණේ…</string>
+    <string name="letsbegin">ලියාපදිංචි වීමේ පිටුව</string>
+    <string name="confirm_register">ඔබට ලියාපදිංචි වීමට අවශ්‍යද?</string>
+    <string name="contactconfirmation">ඔබට අප හා සම්බන්ධ වීමට අවශ්‍යද?</string>
+    <string name="addeventconfirmation">ඔබට මෙම සිදුවීම එක් කිරීමට අවශ්‍යද?</string>
+
+    <string name="location_services_disabled_title">ස්ථාන සේවා අක්‍රීය කර ඇත</string>
+    <string name="location_services_disabled_message">මෙම අංගය සඳහා ස්ථාන සේවාවන් අවශ්‍ය වේ. ඔබේ උපාංගයේ සැකසුම්හි ස්ථාන සේවාවන් සක්‍රීය කරන්න.</string>
+    <string name="enable">සක්‍රීය කරන්න</string>
+    <string name="cancel">අත්හරින්න</string>
+
+    <string name="Sunny">හිරු එළිය</string>
+    <string name="MainlySunny">බොහෝවිට හිරු එළිය</string>
+    <string name="PartlyCloudy">අඩාල වලාකුළු</string>
+    <string name="Cloudy">වලාකුළු</string>
+    <string name="Foggy">කුහරය</string>
+    <string name="RimeFog">රයිම් කුහරය</string>
+    <string name="LightDrizzle">සැහැල්ලු වැසි</string>
+    <string name="Drizzle">වැසි</string>
+    <string name="HeavyDrizzle">තද වැසි</string>
+    <string name="LightFreezingDrizzle">සැහැල්ලු අයිස් වැසි</string>
+    <string name="FreezingDrizzle">අයිස් වැසි</string>
+    <string name="LightRain">සැහැල්ලු වැසි</string>
+    <string name="Rain">වැසි</string>
+    <string name="HeavyRain">තද වැසි</string>
+    <string name="LightFreezingRain">සැහැල්ලු අයිස් වැසි</string>
+    <string name="FreezingRain">අයිස් වැසි</string>
+    <string name="LightSnow">සැහැල්ලු හිම</string>
+    <string name="Snow">හිම</string>
+    <string name="HeavySnow">තද හිම</string>
+    <string name="SnowGrains">හිම ධාන්‍ය</string>
+    <string name="LightShowers">සැහැල්ලු වැසි</string>
+    <string name="Showers">වැසි</string>
+    <string name="HeavyShowers">තද වැසි</string>
+    <string name="LightSnowShowers">සැහැල්ලු හිම වැසි</string>
+    <string name="SnowShowers">හිම වැසි</string>
+    <string name="Thunderstorm">අකුණු සැර</string>
+    <string name="LightThunderstormsWithHail">සැහැල්ලු අකුණු සැර සහිත හෙල්</string>
+    <string name="ThunderstormWithHail">අකුණු සැර සහිත හෙල්</string>
+    <string name="unknown_conditions">නොදත් තත්ත්වයන්</string>
+    <string name="invalid_confirm_password">මුරපදය නොගැලපේ</string>
+    <string name="newpassword">නව මුරපදය</string>
+    <string name="oldpassword">පැරණි මුරපදය</string>
+    <string name="passwordchangesuccess">මුරපදය සාර්ථකව වෙනස් කරන ලදී</string>
+
+</resources>

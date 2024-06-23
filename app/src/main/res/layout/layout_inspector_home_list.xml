@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/homeListCardViewLayoutMarginBottom"
+        tools:ignore="TextSizeCheck">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/homeListCardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/homeListCardViewLayoutMarginStart"
+            android:layout_marginEnd="@dimen/homeListCardViewLayoutMarginEnd"
+            app:cardCornerRadius="@dimen/homeListCardViewCardCornerRadius"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image_view_layout_home_list"
+                    android:layout_width="@dimen/homeListCardViewCardImageViewLayoutWidth"
+                    android:layout_height="@dimen/homeListCardViewCardImageViewLayoutHeight"
+                    android:layout_marginStart="@dimen/homeListCardViewCardImageViewMarginStart"
+                    android:adjustViewBounds="true"
+                    android:elevation="@dimen/homeListCardViewCardImageViewElevation"
+                    android:paddingTop="@dimen/homeListCardViewCardImageViewPaddingTop"
+                    android:paddingBottom="@dimen/homeListCardViewCardImageViewPaddingBottom"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="79dp" />
+
+                <TextView
+                    android:id="@+id/txtDate"
+                    style="@style/dateAndTimeTextLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="@dimen/homeListCardViewCardTextViewMarginStart"
+                    android:layout_marginTop="@dimen/homeListCardViewCardTextViewMarginTop"
+                    android:text="@string/date_and_time"
+                    app:layout_constraintStart_toStartOf="@+id/guideline"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/homeListCardViewCardTextViewMarginTop"
+                    android:text="@string/this_is_firest_inquiry"
+                    app:layout_constraintStart_toStartOf="@+id/txtDate"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDate" />
+
+                <TextView
+                    android:id="@+id/txtExplore"
+                    style="@style/textExploreTextLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/homeListCardViewCardTextViewMarginTop"
+                    android:layout_marginBottom="@dimen/homeListCardViewCardTextViewMarginBottom"
+                    android:text="@string/explore_more"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/txtQuestion"
+                    app:layout_constraintTop_toBottomOf="@+id/txtQuestion"
+                    tools:ignore="SmallSp" />
+
+                <ImageView
+                    android:id="@+id/imgArrow"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/homeListCardViewCardImageArrowLayoutHeight"
+                    android:layout_marginStart="@dimen/homeListCardViewCardImageArrowLayoutMarginStart"
+                    android:src="@drawable/right_arrow"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtExplore"
+                    app:layout_constraintStart_toEndOf="@+id/txtExplore"
+                    app:layout_constraintTop_toTopOf="@+id/txtExplore"
+                    app:layout_constraintVertical_bias="0.9"
+                    app:tint="@color/black"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

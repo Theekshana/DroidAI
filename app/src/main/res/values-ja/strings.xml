@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">Droid AI</string>
+    <string name="preference_file_key">Droid AI Preference</string>
+    <string name="notifications">通知</string>
+    <string name="crop_calendar">カレンダー</string>
+    <string name="camera">カメラ</string>
+    <string name="contact_our_experts">当社の専門家</string>
+    <string name="home">ホーム</string>
+    <string name="settings">設定</string>
+    <string name="edit_profile">プロフィール更新</string>
+    <string name="log_out">ログアウト</string>
+    <string name="explore_more">もっと探る</string>
+    <string name="respond">返信</string>
+    <string name="pending">保留中</string>
+
+    <string name="location_permission_dialog_title">位置情報の許可が必要です</string>
+    <string name="location_permission_initial_dialog_message">このアプリは位置情報の許可が必要です。位置情報機能を使用するためには、許可してください。</string>
+    <string name="ok">OK</string>
+
+    <string name="location_permission_denied_dialog_message">位置情報の許可は、このアプリが全機能を提供するために必要です。許可しないと、一部の機能が正しく動作しないことがあります。アプリ設定で位置情報の許可を有効にしてください。</string>
+
+    <string-array name="district">
+        <item>ガンパハ</item>
+        <item>コロンボ</item>
+        <item>ガレ</item>
+        <item>カルタラ</item>
+    </string-array>
+
+    <!-- Fragment Labels -->
+    <string name="menu_home">Home</string>
+    <string name="menu_notifications">通知</string>
+    <string name="hello_blank_fragment">こんにちは 空のフラグメント</string>
+    <string name="weather_info_title">天気情報</string>
+    <string name="_01">01.</string>
+    <string name="take_photo">写真を撮る</string>
+    <string name="submit">提出</string>
+    <string name="question">質問</string>
+    <string name="_03">03.</string>
+    <string name="area">エリア</string>
+    <string name="submit_your_problem">問題を提出する</string>
+    <string name="_02">02.</string>
+    <string name="age_of_the_crop">作物の年齢</string>
+    <string name="todo">TODO</string>
+
+    <!-- Image content Descriptions -->
+    <string name="app_logo">アプリロゴ</string>
+    <string name="default_image_for_list">リスト用デフォルト画像</string>
+    <string name="back_button_image">アクションバーバックボタン画像</string>
+    <string name="alert_dialog_image">アラートダイアログアイコン</string>
+    <string name="progress_dialog_image">プログレスダイアログアイコン</string>
+    <string name="favourite_button_image">お気に入りボタンアイコン</string>
+    <string name="forward_arrow_icon">進む矢印アイコン</string>
+    <string name="fav_delete_icon">お気に入り削除アイコン</string>
+    <string name="radio_button_custom_icon">ラジオボタンアイコン</string>
+
+    <!-- Dialog messages -->
+    <string name="logout_confirmation_message">ログアウトしますか？</string>
+    <string name="exit_confirmation_message">終了しますか？</string>
+    <string name="no">いいえ</string>
+    <string name="yes">はい</string>
+    <string name="progressing">進行中.....</string>
+    <string name="call_inspector_desc">検査官に電話する</string>
+    <string name="phone_number">011 2 111 222</string>
+    <string name="tell_us_about_your_problem">問題を教えてください</string>
+    <string name="call_us_now">今すぐお電話ください</string>
+    <string name="welcome">ようこそ..!</string>
+    <string name="date_and_time">日付と時刻</string>
+    <string name="this_is_firest_inquiry">これは最初の問い合わせです</string>
+    <string name="app_name_label">Droid AI</string>
+    <string name="landing_page_content">Droid AIへようこそ。私たちのユーザーフレンドリーなプラットフォームを使って、農業監査官と農家のコラボレーションを促進し、成功を築いてください。接続し、問い合わせ、成功を育てる</string>
+    <string name="next">次へ</string>
+    <string name="login_page_header">サインインしましょう</string>
+    <string name="loginpagesubheader">ようこそ</string>
+    <string name="username">ユーザー名</string>
+    <string name="password">パスワード</string>
+    <string name="dontyouhaveaccount">アカウントをお持ちではありませんか？</string>
+    <string name="signup">サインアップ</string>
+    <string name="forgot_password">パスワードを忘れた</string>
+    <string name="login">ログイン</string>
+    <string name="invalid_username">無効なユーザー名</string>
+    <string name="invalid_password">無効なパスワード</string>
+    <string name="wait">お待ちください.....</string>
+    <string name="no_internet">インターネットがありません</string>
+    <string name="invalid_firstname">無効な名前</string>
+    <string name="invalid_lastname">無効な姓</string>
+    <string name="invalid_contactno">無効な連絡先番号</string>
+    <string name="firstname">名</string>
+    <string name="lastname">姓</string>
+    <string name="contactno">連絡先番号</string>
+    <string name="confirmpassword">パスワードの確認</string>
+    <string name="back">戻る</string>
+    <string name="nic">NIC番号</string>
+    <string name="invalid_nic">無効なNIC</string>
+    <string name="input_activated_color">#FF71BDC5</string>
+    <string name="input_default_color">#FF71BDC5</string>
+    <string name="english">English</string>
+    <string name="sinhala">සිංහල</string>
+    <string name="japanese">日本語</string>
+    <string name="change_language">言語を変更</string>
+    <string name="change_password">パスワードを変更</string>
+
+    <string name="future_works">将来の作業</string>
+    <string name="add_event">イベントを追加</string>
+    <string name="date">日付</string>
+    <string name="describe_your_event">イベントを説明してください</string>
+    <string name="add">イベントを追加</string>
+    <string name="event_details_cannot_be_empty">イベントの詳細は空にできません</string>
+    <string name="date_select_error">先に日付を選択してください</string>
+    <string name="delete_event_cofirmation">このイベントを削除しますか？</string>
+    <string name="cropcategories">作物のカテゴリー</string>
+    <string name="fragmentHome">Fragment Home</string>
+    <string name="fragmentNotifications">Fragment Notifications</string>
+    <string name="inquiries">お問い合わせ</string>
+
+    <string name="submit_your_answer">回答を提出してください</string>
+    <string name="information">情報</string>
+    <string name="problem">問題</string>
+    <string name="answer">回答</string>
+    <string name="completed">完了しました</string>
+    <string name="add_your_answer_here">ここに回答を追加してください</string>
+    <string name="response">回答</string>
+    <string name="pending_tab">保留中</string>
+    <string name="retry">リトライ</string>
+    <string name="fillTheAnswerFeild">回答欄に記入してください</string>
+    <string name="fillAllFeilds">すべてのフィールドに入力してください</string>
+    <string name="successfullMessage">問い合わせが正常に送信されました</string>
+
+    <string name="failed_to_load_details">詳細のロードに失敗しました</string>
+    <string name="address">住所</string>
+    <string name="district">地区</string>
+    <string name="dealer_locations">" 販売店の所在地"</string>
+
+    <string-array name="district_array">
+        <item>全て</item>
+        <item>アンパラ</item> <!-- Ampara -->
+        <item>アヌラダプラ</item> <!-- Anuradhapura -->
+        <item>バドゥッラ</item> <!-- Badulla -->
+        <item>バティカロア</item> <!-- Batticaloa -->
+        <item>コロンボ</item> <!-- Colombo -->
+        <item>ガレ</item> <!-- Galle -->
+        <item>ガンパハ</item> <!-- Gampaha -->
+        <item>ハンバントタ</item> <!-- Hambantota -->
+        <item>ジャフナ</item> <!-- Jaffna -->
+        <item>カルタラ</item> <!-- Kalutara -->
+        <item>カンディ</item> <!-- Kandy -->
+        <item>ケガレ</item> <!-- Kegalle -->
+        <item>キリノッチ</item> <!-- Kilinochchi -->
+        <item>クルネガラ</item> <!-- Kurunegala -->
+        <item>マンナール</item> <!-- Mannar -->
+        <item>マタレ</item> <!-- Matale -->
+        <item>マタラ</item> <!-- Matara -->
+        <item>モネラガラ</item> <!-- Moneragala -->
+        <item>ムッライティヴ</item> <!-- Mullaitivu -->
+        <item>ヌワラエリヤ</item> <!-- Nuwara Eliya -->
+        <item>ポロンナルワ</item> <!-- Polonnaruwa -->
+        <item>プッタラム</item> <!-- Puttalam -->
+        <item>ラトナプラ</item> <!-- Ratnapura -->
+        <item>トリンコマリー</item> <!-- Trincomalee -->
+        <item>ヴァヴニヤ</item> <!-- Vavuniya -->
+    </string-array>
+    <string name="all">全て</string>
+    <string name="comingsoon">近日公開</string>
+    <string name="letsbegin">サインアップページ</string>
+    <string name="confirm_register">登録しますか?</string>
+    <string name="contactconfirmation">私たちに連絡したいですか？</string>
+    <string name="addeventconfirmation">このイベントを追加しますか?</string>
+
+    <string name="location_services_disabled_title">位置情報サービスが無効です</string>
+    <string name="location_services_disabled_message">この機能には位置情報サービスが必要です。デバイスの設定で位置情報サービスを有効にしてください。</string>
+    <string name="enable">有効にする</string>
+    <string name="cancel">キャンセル</string>
+
+    <string name="Sunny">晴れ</string>
+    <string name="MainlySunny">主に晴れ</string>
+    <string name="PartlyCloudy">一部曇り</string>
+    <string name="Cloudy">曇り</string>
+    <string name="Foggy">霧がかかっている</string>
+    <string name="RimeFog">霧氷</string>
+    <string name="LightDrizzle">小雨</string>
+    <string name="Drizzle">霧雨</string>
+    <string name="HeavyDrizzle">強い霧雨</string>
+    <string name="LightFreezingDrizzle">軽い着氷性の霧雨</string>
+    <string name="FreezingDrizzle">着氷性の霧雨</string>
+    <string name="LightRain">小雨</string>
+    <string name="Rain">雨</string>
+    <string name="HeavyRain">大雨</string>
+    <string name="LightFreezingRain">軽い着氷性の雨</string>
+    <string name="FreezingRain">着氷性の雨</string>
+    <string name="LightSnow">小雪</string>
+    <string name="Snow">雪</string>
+    <string name="HeavySnow">大雪</string>
+    <string name="SnowGrains">霙（みぞれ）</string>
+    <string name="LightShowers">小雨のにわか雨</string>
+    <string name="Showers">にわか雨</string>
+    <string name="HeavyShowers">激しいにわか雨</string>
+    <string name="LightSnowShowers">小雪のにわか雨</string>
+    <string name="SnowShowers">雪のにわか雨</string>
+    <string name="Thunderstorm">雷雨</string>
+    <string name="LightThunderstormsWithHail">小雹を伴う雷雨</string>
+    <string name="ThunderstormWithHail">雹を伴う雷雨</string>
+    <string name="unknown_conditions">不明な条件</string>
+    <string name="invalid_confirm_password">パスワードが一致しません</string>
+    <string name="newpassword">新しいパスワード</string>
+    <string name="oldpassword">以前のパスワード</string>
+    <string name="passwordchangesuccess">パスワードは正常に変更されました</string>
+
+</resources>

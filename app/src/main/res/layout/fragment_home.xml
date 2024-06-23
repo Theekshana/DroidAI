@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeFragment">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/appBarLayoutHeight"
+            android:background="@drawable/default_background"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.DroidAI">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:collapsedTitleTextAppearance="@style/homePageLabel"
+                app:expandedTitleTextAppearance="@style/homePageLabel"
+                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+                app:title="@string/inquiries">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/fragmentContentMarginStart"
+                        android:layout_marginTop="@dimen/fragmentContentMargin"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/home_profile"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/txtWelcome"
+                        style="@style/fragmentTitleStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/horizontal_margin"
+                        android:text="@string/welcome"
+                        app:layout_constraintStart_toEndOf="@+id/imgProfile"
+                        app:layout_constraintTop_toTopOf="@+id/imgProfile" />
+
+                    <TextView
+                        android:id="@+id/text_view_fragment_home_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/horizontal_margin"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toEndOf="@+id/imgProfile"
+                        app:layout_constraintTop_toBottomOf="@+id/txtWelcome" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/input_text_margin_top"
+                        android:layout_marginStart="@dimen/card_view_layout_marginStart"
+                        android:layout_marginEnd="@dimen/card_view_layout_marginEnd"
+                        app:cardCornerRadius="@dimen/card_view_cardCornerRadius"
+                        app:cardElevation="@dimen/card_view_cardElevation"
+                        app:layout_collapseMode="none"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.498"
+                        app:layout_constraintTop_toBottomOf="@+id/imgProfile">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/callLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/gradient_background">
+
+                            <TextView
+                                android:id="@+id/txtCall"
+                                style="@style/frameHeading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/card_view_text_view_layout_height"
+                                android:layout_marginStart="@dimen/card_view_text_view_layout_marginStart"
+                                android:layout_marginTop="@dimen/card_view_inquiries_text_view_layout_marginTop"
+                                android:text="@string/tell_us_about_your_problem"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/txtNumber"
+                                style="@style/framePhoneNumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/card_view_text_view_layout_height"
+                                android:layout_marginTop="@dimen/card_view_text_view_layout_marginTop"
+                                android:text="@string/phone_number"
+                                app:layout_constraintStart_toStartOf="@+id/txtCall"
+                                app:layout_constraintTop_toBottomOf="@+id/txtCall"
+                                tools:ignore="TextContrastCheck" />
+
+                            <ImageView
+                                android:id="@+id/imgPhone"
+                                android:layout_width="@dimen/card_view_telephone_image_view_layout_width"
+                                android:layout_height="@dimen/card_view_telephone_image_view_layout_height"
+                                android:layout_marginTop="@dimen/card_view_text_view_layout_marginTop"
+                                android:layout_marginBottom="@dimen/card_view_telephone_image_view_margin_bottom"
+                                android:contentDescription="TODO"
+                                android:src="@mipmap/telephone"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="@+id/txtNumber"
+                                app:layout_constraintTop_toBottomOf="@+id/txtNumber"
+                                tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck"
+                                tools:src="@tools:sample/avatars" />
+
+                            <TextView
+                                android:id="@+id/txtCallUs"
+                                style="@style/frameFooter"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/card_view_call_us_text_view_layout_marginStart"
+                                android:text="@string/call_us_now"
+                                app:layout_constraintBottom_toBottomOf="@+id/imgPhone"
+                                app:layout_constraintStart_toEndOf="@+id/imgPhone"
+                                app:layout_constraintTop_toTopOf="@+id/imgPhone"
+                                app:layout_constraintVertical_bias="0.483"
+                                tools:ignore="TextContrastCheck" />
+
+                            <ImageView
+                                android:id="@+id/imgPerson"
+                                android:layout_width="@dimen/card_view_person_image_view_layout_width"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="16dp"
+                                android:scaleType="fitEnd"
+                                android:src="@mipmap/frame_image"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/txtNumber"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:ignore="ContentDescription"
+                                tools:src="@tools:sample/avatars" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_color"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="100dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/layout_home_list" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

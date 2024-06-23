@@ -1,0 +1,1941 @@
+[
+  {
+    "title": "Vegetables",
+    "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/vege.jpg",
+    "type": "SubCategoryList",
+    "items": [
+      {
+        "title": "Carrot",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/carrote.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Seeds and Plant Materials",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-carrot-agri_inputs-seeds-herculis.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-carrot-agri_inputs-seeds-herculis_details.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-carrot-agri_inputs-seeds-torento_details.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-carrot-agri_inputs-seeds-torento_details.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-carrot-agri_inputs-seeds-Turkey.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-carrot-agri_inputs-seeds-Turkey_details.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Control of fungal diseases",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Oltenaria blight",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-leeks-agri_inputs-plant_protection-option_1-button_1-image_1-Mancozeb.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-leeks-agri_inputs-plant_protection-option_1-button_1-image_1-Mancozeb.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsImage",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-carrot-protocol.png"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-carrot-faming_tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Tomato",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/tomato.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Pest control",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Aphids",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_1-image_1-actara.jpeg",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_1-image_1-actara_details.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_1-image_2-chess.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_1-image_2-chess_details.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White flies",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_2-image_1-chess.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_2-image_1-chess_details.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Plant fleas",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_3-image_1-actara.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_3-image_1-actara_details.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_3-image_2-chess.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_3-image_2-chess_details.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Leaf borer and pod borer",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_4-image_1-PROCLAIm.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_4-image_1-PROCLAIM_details.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Control of fungal diseases",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Anterior blight",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_2-button_1-image_1-Marco.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_2-button_1-image_1-Marco_details.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_2-button_1-image_2-RidomilGold.PNG",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_2-button_1-image_2-RidomilGold_details.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Western blight",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_2-button_2-image_1-Marco.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_2-button_2-image_1-Marco_details.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_2-button_2-image_2-RidomilGold.PNG",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_2-button_2-image_2-RidomilGold_details.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable-vegebutton_1-tomato-farming_tips.pdf"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable_and_friuts-field_crops-chilli_farming_tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Cabbage",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/cabbage.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Pest control",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Leaf-eating caterpillar",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-cabbage-agri_inputs-plant_protection-option_1-button_1-image_1pro.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-cabbage-agri_inputs-plant_protection-option_1-button_1-image_1proclame.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Control of fungal diseases",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Downy mildew",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-cabbage-agri_inputs-plant_protection-option_2-button_1-image_1marco.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-cabbage-agri_inputs-plant_protection-option_2-button_1-image_1marco.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsImage",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-cabage-protocol.png"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-cabbage-farming tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Eggplant",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/brinjal.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Pest control",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Worm that pierces nuts and seeds",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-brinjal-agri_inputs-plant_protection-option_1-button_1-image_1marco.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-brinjal-agri_inputs-plant_protection-option_1-button_1-image_1marco.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Leaves rustled",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-brinjal-agri_inputs-plant_protection-option_1-button_1-image_1actara.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-brinjal-agri_inputs-plant_protection-option_1-button_2-image_1actara.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Mealy bugs and bark beetles",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-brinjal-agri_inputs-plant_protection-option_1-button_1-image_1actara.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-brijal-agri_inputs-plant_protection-option_1-button_3-image_1marco.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsImage",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-brinjal-protocol.png"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-brinjal-farming tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Leaks",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/leeks.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Control of fungal diseases",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Purple spot disease",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-leeks-agri_inputs-plant_protection-option_1-button_1-image_1-Mancozeb.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-leeks-agri_inputs-plant_protection-option_1-button_1-image_1-Mancozeb.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsImage",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-leeks-protocol.png"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable-vegebutton_1-leeks-farming_tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Beans",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/beens.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsPDF",
+            "link": ""
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Field crops",
+    "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/chilli.jpg",
+    "type": "SubCategoryList",
+    "items": [
+      {
+        "title": "Chili",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/chilli.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Pest control",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Spreading leaf litter Aphids,Plant fleas,White flies",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_1-button_1-image_1Actara.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_1-button_1-image_1Actara_detail.pdf"
+                          },
+                          {
+                            "title": "Chess",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_1-button_1-image_2chess.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_1-button_1-image_2chess_detail.pdf"
+                          },
+                          {
+                            "title": "Virtako 40 WG",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_1-button_1-image_3Virtako.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_1-button_1-image_3Virtako_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "The pod borer",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_1-button_2-image_1Virtako.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_1-button_2-image_1Virtako_detail.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Control of fungal diseases",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Flower rot blight",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_2-button_1-image_1mancozeb.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_2-button_1-image_1mancozeb_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Phytoptera blight",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_2-button_2-image_1mancozeb.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_2-button_2-image_1mancozeb_detail.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_2-button_2-image_2RidomilGold.PNG",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-chilli-agri_inputs-plant_protection-option_2-button_2-image_2RidomilGold_detail.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable_and_friuts-field_crops-chilli-protocol.pdf"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable_and_friuts-field_crops-chilli_farming_tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Potato",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/potato.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Pest control",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Plant fleas",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_1-image_1Virtako.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_1-image_1Virtako_detail.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_1-image_2chess.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_1-image_2chess_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Aphids",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_2-image_1Actara.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_2-image_1Actara_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White flies",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_2-image_1-chess.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-Vegetable-tomato-agri_inputs-plant_protection-option_1-button_2-image_1-chess_details.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_2-image_2Virtako.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_2-image_2Virtako_detail.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_2-image_3chess.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_2-image_3chess_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "The tapeworm",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_3-image_1Virtako.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_3-image_1Virtako_detail.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_3-image_2chess.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_3-image_2chess_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Potato beetle (cultivated)",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_5-image_1Virtako.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_5-image_1Virtako_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Potato beetle (storage)",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_6-image_1_ACTELLIC.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_1-button_6-image_1_ACTELLICdetail.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Control of fungal diseases",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Western blight",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_1-image_1mancozeb.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_1-image_1mancozeb_detail.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_1-image_2RidomilGold.PNG",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_1-image_2RidomilGold_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Western blight",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_2-image_1mancozeb.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_2-image_1mancozeb_detail.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_2-image_2RidomilGold.PNG",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_2-image_2RidomilGold_detail.pdf"
+                          },
+                          {
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_2-image_3Amistar.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Vegetable_&_Fruits-Fruits-field_crop-potato-agri_inputs-plant_protection-option_2-button_2-image_3Amistar_detail.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsImage",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable_and_friuts-field_crops-Potato-protocol.png"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable_and_friuts-field_crops-Potato_farming_tips.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Fruits",
+    "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/fruits.jpg",
+    "type": "SubCategoryList",
+    "items": [
+      {
+        "title": "Pineapple",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/pineappe.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "DetailsPDF",
+                "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_frut-fruits-agri-inpt-pltn_material_paple.pdf"
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsImage",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_frut-fruits-protocol.jpg"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_frut-fruits-farming_tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Watermelon",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/watermelon.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "DetailsPDF",
+                "link": ""
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsImage",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_fru-frut-water_melon-protocol.png"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_fru-frut-water_melon-farming_tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Mango",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/banana.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "DetailsPDF",
+                "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_frut-frut-agri_inpts-planting_material_mango.pdf"
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_frut-frut-mango_protocol.png"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_frut-frut-mango-farming_tips_mango.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Banana",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/banana.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "DetailsPDF",
+                "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/babana-Planting_material.pdf"
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                ]
+              },
+              {
+                "title": "Plants Protection",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+                "type": "Filter",
+                "items": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/si-vege_frut-frut-banana_protocol.png"
+          }
+        ]
+      },
+      {
+        "title": "Papaya",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/papaya.jpg",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Agri Inputs",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+            "type": "MenuList",
+            "items": [
+              {
+                "title": "Plant Materials",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Seeds",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "Jet 999",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_1-JET999.PNG",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_1-JET999_details.pdf"
+                          },
+                          {
+                            "title": "COMMANDO",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_2-commando.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_2-COMMANDO_details.pdf"
+                          },
+                          {
+                            "title": "CIC Sisira",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_3-supiri.jpg",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_3-CIC_SUPIRI_details.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Plants Nutrients",
+                "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Basic fertilization",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Mixed fertilizers",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "MP BASAL 6.17.10 ++",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_1-image_1-MP_BASAL.jpg",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_1-image_1-MP_BASAL_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Compound fertilizer",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "Yara Mila Complex 12.11.18.3MgO,8S++",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_2-image_1-Yara_Mila_Complex.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_2-image_1-Yara_Mila_Complex_detail.pdf"
+                          },
+                          {
+                            "title": "Yara Grower",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_2-image_2-Yara_Grower.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_2-image_2-Yara_Grower_detail.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Micro-fertilizers",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "CIC SULFONITE",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_3-image_1-SULFONITE.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_3-image_1-SULFONITE_details.pdf"
+                          },
+                          {
+                            "title": "(Super Micro Mix",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_3-image_2-SUPER_MICRO_MIX.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_3-image_2-SUPER_MICRO_MIX_details.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Hybrid fertilizers",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "CIC 522",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_4-image_1-CIC_522.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_4-image_1-CIC_522_details.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Surface fertilization",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "title": "Mixed fertilizers",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "TDM",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_1-image_1-TDM.PNG",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_1-image_1-TDM_details.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Hybrid fertilizers",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "522",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_2-image_1-CIC_522.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_2-image_1-CIC_522_details.pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Compound fertilizer",
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "Yara Mila Complex 12.11.18.3MgO,8S++",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_3-image_1-Yara_Mila_Complex.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_3-image_1-Yara_Mila_Complex_details.pdf"
+                          },
+                          {
+                            "title": "Super K 13.6.27.4.B",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_3-image_2-super_k_details.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Liquid fertilizers",
+                    "type": "Filter",
+                    "items": [
+                      {
+                        "type": "FilterButton",
+                        "items": [
+                          {
+                            "title": "Atonic",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_3-button_1-image_1-ATONIC.jpg",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_3-button_1-image_1-ATONIC_details.pdf"
+                          },
+                          {
+                            "title": "Wuxal Zn",
+                            "type": "ImageButton",
+                            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_3-button_1-image_2-wuxal_zn.png",
+                            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_3-button_1-image_2-wuxal_zn_details.pdf"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Protocols",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable_and_friuts-field_crops-chilli-protocol.pdf"
+          },
+          {
+            "title": "Agri Methods",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-vegetable_and_friuts-field_crops-chilli_farming_tips.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Coconut",
+    "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/home_list_cocunut.png",
+    "type": "MenuList",
+    "items": [
+      {
+        "title": "Agri Inputs",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Plant Materials",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-PLANTING%20MATERIAL.pdf"
+          },
+          {
+            "title": "Plants Nutrients",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+            "type": "Filter",
+            "items": [
+              {
+                "title": "Fertilizer recommendations for seedling stage",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Mixed fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_1-image_1YPM_W.PNG",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_1-image_1-YPM_W_detail.pdf"
+                      },
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_1-image_2YPM_D.PNG",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_1-image_2-YPM_D_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Compound fertilizer",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "CIC 522",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_2-image_1Yara_Mila_Complex",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_2-image_1-Yara_Mila_Complex_detail.pdf"
+                      },
+                      {
+                        "title": "CIC 522",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_2-image_2Sulfonite.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_2-image_2-Sulfonite_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Micro-fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_3-image_1CIC_MICRO_COCONUT.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_3-image_1-CIC_MICRO_COCONUT_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Organic fertilizer",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "CIC 522",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_4-image_1bio_carbon.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_4-image_1-bio_carbon_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hybrid fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "CIC SULFONITE",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_5-image_1cic_522.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_1-button_5-image_1-cic_522_detail.pdf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Fertilizer recommendations for fruit bearing coconut trees",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Mixed fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_1-image_1APM_W.PNG",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_1-image_1-APM_W_detail.pdf"
+                      },
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_1-image_2APM_D.PNG",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_1-image_2-APM_D_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Compound fertilizer",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "CIC 522",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_2-image_1SUPER_K.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_2-image_1-SUPER_K_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Micro-fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_3-image_1CIC_MICRO_COCONUT.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_3-image_1-CIC_MICRO_COCONUT_detail.pdf"
+                      },
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_3-image_2Sulfonite.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-agri_inputs-plant_nutrient-option_2-button_3-image_2-Sulfonite_detail.pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Plants Protection",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+            "type": "Filter",
+            "items": [
+              {
+                "title": "Weed control",
+                "type": "DetailsPDF",
+                "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-agri_inputs-plant_protection-PEST_control-VERTACO_image_DETAIL.pdf"
+              },
+              {
+                "title": "Disease control",
+                "type": "DetailsPDF",
+                "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala_coconut-agri_inputs-plant_protection-plant_disease_detail.pdf"
+              }
+            ]
+          },
+          {
+            "title": "High Tech Agriculture",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/high_tech_agri.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-hightech_Agriculture_drone.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Protocols",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+        "type": "DetailsPDF",
+        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-coconut-protocol.pdf"
+      },
+      {
+        "title": "Agri Methods",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+        "type": "MenuList",
+        "items": [
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Paddy",
+    "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/home_list_paddy.png",
+    "type": "MenuList",
+    "items": [
+      {
+        "title": "Agri Inputs",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Plant Materials",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-Seed_paddy.pdf"
+          },
+          {
+            "title": "Plants Nutrients",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+            "type": "Filter",
+            "items": [
+              {
+                "title": "Basic fertilization",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Soil stimulants",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_1-button_1-image_1-CIC_ECO_FERT_DISCOVERY.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_1-button_1-image_1-CIC_ECO_FERT_DISCOVERY_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Micro-fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_1-button_2-image_1-sulfonite.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_1-button_2-image_1-sulfonite_details.pdf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Surface fertilization",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Compound fertilizer",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_1-image_1-Yara_Mila_Complex.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_1-image_1-Yara_Mila_Complex_details.pdf"
+                      },
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_1-image_2-V_Yara.jpg",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_1-image_2-V_Yara_details.pdf"
+                      },
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_1-image_3-Yara_CAL_NITROBOR.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_1-image_3-Yara_CAL_NITROBOR_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hybrid fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_2-image_2-cic_522.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_2-image_2-cic_522_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Micro-fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_3-image_1-CIC_MICRO_V.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_3-image_1-CIC_MICRO_V_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Mixed fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_4-image_1-TDM.PNG",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_2-button_4-image_1-TDM_details.pdf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Liquid fertilizers",
+                "type": "Filter",
+                "items": [
+                  {
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_3-button_1-image_1-atonic.jpg",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_3-button_1-image_1-atonic_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_3-button_1-image_2-wuxal_v.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_nutrient-option_3-button_1-image_2-wuxal_v_details.pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Plants Protection",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+            "type": "Filter",
+            "items": [
+              {
+                "title": "Weed control",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Before preparing the ground",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_1-image_2-glyphosate_amonium.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_1-image_2-glyphosate_amonium_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "0-4 days after sowing or planting",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_2-image_1-sofit.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_2-image_1-sofit_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "6-10 days after sowing or planting",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_3-image_1-solito.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_3-image_1-solito_detail.pdf"
+                      },
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_3-image_2-profit.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_3-image_2-profit_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "8-15 days after sowing or planting",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_4-image_1-glyphosate.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_4-image_1-glyphosate_detail.pdf"
+                      },
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_4-image_faset.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_4-image_faset_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "10-12 days after sowing or planting",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_5-image_1-grant.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_5-image_1-grant.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "14-21 days after sowing or transplanting",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "",
+                        "link": ""
+                      }
+                    ]
+                  },
+                  {
+                    "title": "21-28 days after sowing or transplanting",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_7-image_1-MCPA.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_7-image_1-MCPA_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "For weed control",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_8-image_1-sofit.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-agri_inputs-plant_protection-option_1-button_8-image_1-sofit_detail.pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "High Tech Agriculture",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/high_tech_agri.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-hightech_Agriculture_drone.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Protocols",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+        "type": "DetailsPDF",
+        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-protocol.pdf"
+      },
+      {
+        "title": "Agri Methods",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+        "type": "DetailsPDF",
+        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-paddy-Farming_tips.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Corn",
+    "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/home_list_corn.png",
+    "type": "MenuList",
+    "items": [
+      {
+        "title": "Agri Inputs",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_inputs.png",
+        "type": "MenuList",
+        "items": [
+          {
+            "title": "Plant Materials",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/seeds_planting_material.png",
+            "type": "Filter",
+            "items": [
+              {
+                "title": "Seeds",
+                "type": "Filter",
+                "items": [
+                  {
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "Jet 999",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_1-JET999.PNG",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_1-JET999_details.pdf"
+                      },
+                      {
+                        "title": "Commando",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_2-commando.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_2-COMMANDO_details.pdf"
+                      },
+                      {
+                        "title": "CIC Susira",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_3-supiri.jpg",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-seeds-button_3-CIC_SUPIRI_details.pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Plants Nutrients",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/plant_nutrients.png",
+            "type": "Filter",
+            "items": [
+              {
+                "title": "Basic fertilization",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Mixed fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "MP BASAL 6.17.10 ++",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_1-image_1-MP_BASAL.PNG",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_1-image_1-MP_BASAL_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Compound fertilizer",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "Yara Mila Complex 12.11.18.3MgO,8S++",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_2-image_1-Yara_Mila_Complex.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_2-image_1-Yara_Mila_Complex_detail.pdf"
+                      },
+                      {
+                        "title": "Yara Grower",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_2-image_2-Yara_Grower.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_2-image_2-Yara_Grower_detail.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Micro-fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "CIC SULFONITE",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_3-image_1-SULFONITE.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_3-image_1-SULFONITE_details.pdf"
+                      },
+                      {
+                        "title": "Super Micro Mix",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_3-image_2-SUPER_MICRO_MIX.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_3-image_2-SUPER_MICRO_MIX_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hybrid fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "CIC 522",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_4-image_1-CIC_522.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_1-button_4-image_1-CIC_522_details.pdf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Surface fertilization",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Mixed fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "TDM",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_1-image_1-TDM.PNG",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_1-image_1-TDM_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hybrid fertilizers",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "522",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_2-image_1-CIC_522.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_2-image_1-CIC_522_details.pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Compound fertilizer",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "Yara Mila Complex 12.11.18.3MgO,8S++",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_3-image_1-Yara_Mila_Complex.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_3-image_1-Yara_Mila_Complex_details.pdf"
+                      },
+                      {
+                        "title": "Super K 13.6.27.4.B",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_2-button_3-image_2-super_k_details.pdf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Liquid fertilizers",
+                "type": "Filter",
+                "items": [
+                  {
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "Atonic",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_3-button_1-image_1-ATONIC.jpg",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_3-button_1-image_1-ATONIC_details.pdf"
+                      },
+                      {
+                        "title": "Wuxal Zn",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_3-button_1-image_2-wuxal_zn.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-CORN-agri_inputs-plant_nutrient-option_3-button_1-image_2-wuxal_zn_details.pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Plants Protection",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/crop_protection.png",
+            "type": "Filter",
+            "items": [
+              {
+                "title": "Weed control",
+                "type": "Filter",
+                "items": [
+                  {
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "Common grass leaves and five leaves",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-agri_inputs-plant_protection-weed_control-image.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-agri_inputs-plant_protection-weed_control-CLIOimage_DETAIL.pdf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Pest control",
+                "type": "Filter",
+                "items": [
+                  {
+                    "title": "Sena caterpillars",
+                    "type": "FilterButton",
+                    "items": [
+                      {
+                        "title": "Proclame 05 SG",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-agri_inputs-plant_protection-PEST_control-PROCLAME_image.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-agri_inputs-plant_protection-PEST_control-PROCLAME_image_DETAIL.pdf"
+                      },
+                      {
+                        "title": "Virtako 40 WG",
+                        "type": "ImageButton",
+                        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-agri_inputs-plant_protection-PEST_control-VERTACO_image.png",
+                        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-agri_inputs-plant_protection-PEST_control-VERTACO_image_DETAIL.pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "High Tech Agriculture",
+            "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/high_tech_agri.png",
+            "type": "DetailsPDF",
+            "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-hightech_Agriculture_drone.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Protocols",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/protocols_informations.png",
+        "type": "DetailsPDF",
+        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-Corn-protocol.pdf"
+      },
+      {
+        "title": "Agri Methods",
+        "image": "https://droid-ai-s3-bucket.s3.amazonaws.com/app-icons/agri_methods.png",
+        "type": "DetailsPDF",
+        "link": "https://droid-ai-s3-bucket.s3.amazonaws.com/contents/sinhala-corn-farming_tips.pdf"
+      }
+    ]
+  }
+]

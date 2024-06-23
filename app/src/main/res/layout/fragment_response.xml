@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/default_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            style="@style/fragmentTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/page_padding"
+            android:layout_marginTop="@dimen/page_padding"
+            android:layout_marginRight="@dimen/page_padding"
+            android:text="@string/submit_your_answer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/view" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtWelcome">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/page_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/inquiryImage"
+                    android:layout_width="380dp"
+                    android:layout_height="350dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/rounded_image_bg"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_camera"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription,ImageContrastCheck"
+                    tools:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/inputTextLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/inspectorResponseViewLayoutMarginStart"
+                    android:layout_marginTop="@dimen/inspectorResponseViewLayoutMarginTop"
+                    android:layout_marginEnd="@dimen/inspectorResponseViewLayoutMarginEnd"
+                    android:text="@string/problem"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/inquiryImage" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/inputTextLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/inspectorResponseViewLayoutMarginTop"
+                    android:text="@string/age_of_the_crop"
+                    app:layout_constraintStart_toStartOf="@+id/textView5"
+                    app:layout_constraintTop_toBottomOf="@+id/txtProblem" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    style="@style/inputTextLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/inspectorResponseViewLayoutMarginTop"
+                    android:text="@string/answer"
+                    app:layout_constraintStart_toStartOf="@+id/textView8"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAgeOfCrop" />
+
+                <EditText
+                    android:id="@+id/etAnswer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/inspectorResponseViewEditTextLayoutMarginTop"
+                    android:autofillHints=""
+                    android:background="@drawable/edittext_border"
+                    android:ems="10"
+                    android:hint="@string/add_your_answer_here"
+                    android:inputType="textMultiLine"
+                    android:minHeight="60dp"
+                    android:padding="@dimen/inspectorResponseViewEditTextPadding"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/txtAgeOfCrop"
+                    app:layout_constraintTop_toBottomOf="@+id/textView11"
+                    tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSubmit"
+                    style="@style/brownButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:layout_marginBottom="@dimen/content_margin"
+                    android:background="@drawable/brown_button_background"
+                    android:paddingLeft="@dimen/buttonHorizontalPadding"
+                    android:paddingRight="@dimen/buttonHorizontalPadding"
+                    android:text="@string/submit"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etAnswer" />
+
+                <TextView
+                    android:id="@+id/txtProblem"
+                    style="@style/inspectorResponseViewTextLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/inspectorResponseTextHeight"
+                    android:layout_marginTop="@dimen/inspectorResponseViewTextLayoutMarginTop"
+                    android:background="@drawable/edittext_border"
+                    android:paddingStart="@dimen/inspectorResponseTextPaddingStart"
+                    android:paddingTop="@dimen/inspectorResponseTextPaddingTop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/txtAgeOfCrop"
+                    style="@style/inspectorResponseViewTextLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/inspectorResponseTextHeight"
+                    android:layout_marginTop="@dimen/inspectorResponseViewTextLayoutMarginTop"
+                    android:background="@drawable/edittext_border"
+                    android:paddingStart="@dimen/inspectorResponseTextPaddingStart"
+                    android:paddingTop="@dimen/inspectorResponseTextPaddingTop"
+                    app:layout_constraintStart_toStartOf="@+id/txtProblem"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

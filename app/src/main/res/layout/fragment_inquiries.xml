@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<data>
+
+        <variable
+            name="inquiryVM"
+            type="lnbti.gtp01.droidai.ui.inquiry.InquiryViewModel" />
+    </data>
+-->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/default_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            style="@style/fragmentTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/page_padding"
+            android:layout_marginTop="@dimen/page_padding"
+            android:layout_marginRight="@dimen/page_padding"
+            android:text="@string/submit_your_problem"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/view" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtWelcome">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/page_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <ImageView
+                    android:id="@+id/inquiryImage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/rounded_image_bg"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_camera"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription,ImageContrastCheck"
+                    tools:src="@tools:sample/avatars" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnCamera"
+                    style="@style/brownButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:background="@drawable/brown_button_background"
+                    android:paddingLeft="@dimen/buttonHorizontalPadding"
+                    android:paddingRight="@dimen/buttonHorizontalPadding"
+                    android:text="@string/take_photo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/inquiryImage" />
+
+                <TextView
+                    android:id="@+id/labelQuestionNo1"
+                    style="@style/inputTextNumberLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_01"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnCamera" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/inputTextLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/textMarginStart"
+                    android:text="@string/area"
+                    app:layout_constraintBottom_toBottomOf="@id/labelQuestionNo1"
+                    app:layout_constraintStart_toEndOf="@id/labelQuestionNo1"
+                    app:layout_constraintTop_toTopOf="@id/labelQuestionNo1" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:background="@drawable/spinner_border"
+                    android:minHeight="48dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/labelQuestionNo1" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    style="@style/inputTextNumberLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/_02"
+                    app:layout_constraintStart_toStartOf="@+id/labelQuestionNo1"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/inputTextLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/textMarginStart"
+                    android:text="@string/age_of_the_crop"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView7"
+                    app:layout_constraintStart_toEndOf="@+id/textView7"
+                    app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+                <EditText
+                    android:id="@+id/etAgeOfCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:autofillHints=""
+                    android:background="@drawable/edittext_border"
+                    android:ems="10"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:minHeight="60dp"
+                    android:padding="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7"
+                    tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/inputTextNumberLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/_03"
+                    app:layout_constraintStart_toStartOf="@+id/textView7"
+                    app:layout_constraintTop_toBottomOf="@+id/etAgeOfCrop" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    style="@style/inputTextLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/textMarginStart"
+                    android:text="@string/question"
+                    app:layout_constraintBottom_toBottomOf="@id/textView10"
+                    app:layout_constraintStart_toEndOf="@id/textView10"
+                    app:layout_constraintTop_toTopOf="@id/textView10" />
+
+                <EditText
+                    android:id="@+id/etQuestion"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:autofillHints=""
+                    android:background="@drawable/edittext_border"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:minHeight="60dp"
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.502"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10"
+                    tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSubmit"
+                    style="@style/brownButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:layout_marginBottom="@dimen/content_margin"
+                    android:background="@drawable/brown_button_background"
+                    android:paddingLeft="@dimen/buttonHorizontalPadding"
+                    android:paddingRight="@dimen/buttonHorizontalPadding"
+                    android:text="@string/submit"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etQuestion" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

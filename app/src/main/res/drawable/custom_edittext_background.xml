@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Add a transparent background to ensure that the margin is visible -->
+    <item android:drawable="@android:color/transparent"/>
+
+    <!-- Add the bitmap with a margin at the top -->
+    <item android:drawable="@mipmap/edittext_bg"/>
+
+</layer-list>
